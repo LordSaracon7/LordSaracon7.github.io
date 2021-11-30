@@ -1,0 +1,153 @@
+/* Benjamin Valdez css code for Online Profile */
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.main {
+  background-color: #E0FFFF;
+}
+header {
+  background-image: url(universe.jpg);
+  min-height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+.title h1 {
+  font-size: 3em;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  color: white;
+  text-align: center;
+  text-shadow: 5px 5px 5px purple, 5px -5px 5px blue;
+}
+footer {
+  background-image: url(space.jpg);
+  min-height: 50px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  font-size: 1.5em;
+  color: white;
+  text-decoration: none;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.carousel {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border: 2px black solid;
+  border-radius: 50px;
+}
+.carousel img {
+  height: 800px;
+  border-radius: 50px;
+}
+.profile {
+  display: flex;
+  margin-right: 5px;
+  height: 300px;
+  margin-top: 10px;
+}
+.profile img {
+  border: 5px purple solid;
+  border-radius: 100px;
+}
+.info {
+  margin-left: 20px;
+  margin-top: 10px;
+  padding: 10px;
+  width: 60%;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+.containerflex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+h5 {
+  text-align: center;
+}
+.work {
+  text-align: center;
+  margin-top: 10px;
+}
+.worktext {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  padding: 10px;
+  width: 60%;
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+}
+.work img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 100px;
+  border: 2px black solid;
+}
+.education {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+.containerflex2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  text-align: center;
+  justify-content: center;
+  margin-top: 20px;
+  font-family: 'Comfortaa', cursive;
+}
+.education img {
+  width: 300px;
+  margin: 10px;
+  border-radius: 50px;
+}
+.containerflex2 p {
+margin-top: 50px;
+}
+.hobbies {
+  margin: 20px;
+  text-align: center;
+}
+.containerflex3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.card {
+  margin: 30px;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  font-weight: bold;
+}
+.card img {
+  height: 250px;
+}
+@media screen and (max-width: 768px) {
+.carousel {
+  width: 100%;
+}
+.carousel img {
+  height: 500px;
+}
+.containerflex2 {
+  flex-direction: column;
+  margin-left: 50px;
+}
+.containerflex3 {
+  flex-direction: column;
+  margin-left: 100px;
+}
+}
